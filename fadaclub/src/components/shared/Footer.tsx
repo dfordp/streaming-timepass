@@ -44,7 +44,7 @@ const Footer = () => {
 
   return (
     <div className='px-32'>
-      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl justify-center py-16 flex flex-row">
+      <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-4xl justify-center py-16 flex flex-row text-nowrap">
         Any Doubts?
       </h1>
       <form ref={formRef} onSubmit={handleSubmit} className='flex flex-col justify-center  items-center'>
