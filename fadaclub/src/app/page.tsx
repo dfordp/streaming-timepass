@@ -7,7 +7,7 @@ import HeroSection from "@/components/shared/HeroSection";
 
 export default function Home() {
   return (
-   <div className="main bg-slate-100 dark:bg-gray-950 w-screen min-h-screen px-10 py-3 ">
+   <div className="main w-screen min-h-screen px-10 py-6">
       <div>
         <Header/>
       </div>
